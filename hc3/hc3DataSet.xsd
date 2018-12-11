@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="hc3DataSet" targetNamespace="http://tempuri.org/hc3DataSet.xsd" xmlns:mstns="http://tempuri.org/hc3DataSet.xsd" xmlns="http://tempuri.org/hc3DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="hc3ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="hc3ConnectionString (Settings)" PropertyReference="ApplicationSettings.hc3.Properties.Settings.GlobalReference.Default.hc3ConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="shujuTableAdapter" GeneratorDataComponentClassName="shujuTableAdapter" Name="shuju" UserDataComponentName="shujuTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hc3ConnectionString (Settings)" DbObjectName="shuju" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [WetBulbTem℃], [Range℃], [Approach ℃], [Inletwatertem℃], [Outletwatertem℃], [京仁开塔100m3/h], result, 性能系数 FROM shuju</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="WetBulbTem℃" DataSetColumn="WetBulbTem℃" />
+              <Mapping SourceColumn="Range℃" DataSetColumn="Range℃" />
+              <Mapping SourceColumn="Approach ℃" DataSetColumn="Approach ℃" />
+              <Mapping SourceColumn="Inletwatertem℃" DataSetColumn="Inletwatertem℃" />
+              <Mapping SourceColumn="Outletwatertem℃" DataSetColumn="Outletwatertem℃" />
+              <Mapping SourceColumn="京仁开塔100m3/h" DataSetColumn="京仁开塔100m3/h" />
+              <Mapping SourceColumn="result" DataSetColumn="result" />
+              <Mapping SourceColumn="性能系数" DataSetColumn="性能系数" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="hc3DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="hc3DataSet" msprop:Generator_UserDSName="hc3DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="shuju" msprop:Generator_TableClassName="shujuDataTable" msprop:Generator_TableVarName="tableshuju" msprop:Generator_TablePropName="shuju" msprop:Generator_RowDeletingName="shujuRowDeleting" msprop:Generator_RowChangingName="shujuRowChanging" msprop:Generator_RowEvHandlerName="shujuRowChangeEventHandler" msprop:Generator_RowDeletedName="shujuRowDeleted" msprop:Generator_UserTableName="shuju" msprop:Generator_RowChangedName="shujuRowChanged" msprop:Generator_RowEvArgName="shujuRowChangeEvent" msprop:Generator_RowClassName="shujuRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WetBulbTem_x2103_" msprop:Generator_ColumnVarNameInTable="_columnWetBulbTem_" msprop:Generator_ColumnPropNameInRow="_WetBulbTem_" msprop:Generator_ColumnPropNameInTable="_WetBulbTem_Column" msprop:Generator_UserColumnName="WetBulbTem℃" type="xs:double" minOccurs="0" />
+              <xs:element name="Range_x2103_" msprop:Generator_ColumnVarNameInTable="_columnRange_" msprop:Generator_ColumnPropNameInRow="_Range_" msprop:Generator_ColumnPropNameInTable="_Range_Column" msprop:Generator_UserColumnName="Range℃" type="xs:double" minOccurs="0" />
+              <xs:element name="Approach_x0020__x2103_" msprop:Generator_ColumnVarNameInTable="_columnApproach__" msprop:Generator_ColumnPropNameInRow="_Approach__" msprop:Generator_ColumnPropNameInTable="_Approach__Column" msprop:Generator_UserColumnName="Approach ℃" type="xs:double" minOccurs="0" />
+              <xs:element name="Inletwatertem_x2103_" msprop:Generator_ColumnVarNameInTable="_columnInletwatertem_" msprop:Generator_ColumnPropNameInRow="_Inletwatertem_" msprop:Generator_ColumnPropNameInTable="_Inletwatertem_Column" msprop:Generator_UserColumnName="Inletwatertem℃" type="xs:double" minOccurs="0" />
+              <xs:element name="Outletwatertem_x2103_" msprop:Generator_ColumnVarNameInTable="_columnOutletwatertem_" msprop:Generator_ColumnPropNameInRow="_Outletwatertem_" msprop:Generator_ColumnPropNameInTable="_Outletwatertem_Column" msprop:Generator_UserColumnName="Outletwatertem℃" type="xs:double" minOccurs="0" />
+              <xs:element name="京仁开塔100m3_x002F_h" msprop:Generator_ColumnVarNameInTable="_column京仁开塔100m3_h" msprop:Generator_ColumnPropNameInRow="_京仁开塔100m3_h" msprop:Generator_ColumnPropNameInTable="_京仁开塔100m3_hColumn" msprop:Generator_UserColumnName="京仁开塔100m3/h" type="xs:double" minOccurs="0" />
+              <xs:element name="result" msprop:Generator_ColumnVarNameInTable="columnresult" msprop:Generator_ColumnPropNameInRow="result" msprop:Generator_ColumnPropNameInTable="resultColumn" msprop:Generator_UserColumnName="result" type="xs:double" minOccurs="0" />
+              <xs:element name="性能系数" msprop:Generator_ColumnVarNameInTable="column性能系数" msprop:Generator_ColumnPropNameInRow="性能系数" msprop:Generator_ColumnPropNameInTable="性能系数Column" msprop:Generator_UserColumnName="性能系数" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
